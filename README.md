@@ -20,7 +20,7 @@ This repository contains a JavaScript-based web application that allows users to
 2. Navigate to the project directory:
 
    ```
-   cd shortest-path-finder
+   cd shortest-path-Routing-App
    ```
 
 3. Install the necessary dependencies:
