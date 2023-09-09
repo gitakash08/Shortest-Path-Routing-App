@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Shortest Path Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a JavaScript-based web application that allows users to find the shortest path from a source point to multiple destination points using TomTom Maps. The application lets users interactively select destinations on the map and calculates the optimal route in real-time.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Interactive map interface for selecting source and destination points.
+- Real-time route calculation using the TomTom Maps API.
+- Display of the shortest route on the map.
+- Ability to change the source point by dragging the source icon.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository to your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```
+   git clone https://github.com/gitakash08/shortest-path-Routing-App.git
+   ```
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```
+   cd shortest-path-Routing-App
+   ```
 
-### `npm run build`
+3. Install the necessary dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Obtain a TomTom Maps API key by signing up at [TomTom Developer Portal](https://developer.tomtom.com/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Replace the placeholder API key in the code with your own API key. You can find the key replacement in the `useEffect` section of the `App.js` file.
 
-### `npm run eject`
+6. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. Open your web browser and access the application at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Use
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Enter the initial source point's Longitude and Latitude in the input fields.
+2. Click on the map to select destination points. The application will calculate and display the shortest route in real-time.
+3. The route will be displayed on the map as a red line.
+4. You can change the source point by dragging the source icon to a new location on the map.
+5. Follow the most optimized path to reach your destinations.
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [TomTom Maps SDK](https://developer.tomtom.com/maps-sdk-web) - Used for map rendering and route calculation.
+- [TomTom Maps API](https://developer.tomtom.com/maps-sdk-web) - Used for location-based services.
+- [ttapi](https://developer.tomtom.com/maps-sdk-web/ttapi) - JavaScript library for interacting with TomTom APIs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+- [Akash Tripathi]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+- [TomTom Developer Portal](https://developer.tomtom.com/) for providing the Maps API and SDK for this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to modify and enhance this application according to your needs. If you have any questions or need further assistance, please don't hesitate to reach out.
 
-### Advanced Configuration
+Enjoy exploring and finding the shortest paths using TomTom Maps!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
