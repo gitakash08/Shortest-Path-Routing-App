@@ -1,0 +1,170 @@
+/* Reset default margin and padding */
+body, div, h1, input {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the whole application */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px; /* Add padding to the top and bottom (10px) and left and right (20px) */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  padding-left: 80px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  padding-right: 54px;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the app container */
+.app {
+  display: flex;
+  height: 505px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8px 7px 67px 14px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Style the map section */
+.map {
+  flex: 9;
+  width: 120vh;
+  height: 545px; /* Set a fixed height for the map */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+/* Style the search-bar section */
+.search-bar {
+  flex: 3;
+  height: 505px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the input fields */
+input {
+  width: 20em;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Add some spacing to the longitude and latitude inputs */
+.longitude,
+.latitude {
+  margin-right: 10px;
+}
+
+/* Add some hover effects to inputs */
+input:hover {
+  border-color: #666;
+}
+
+/* Style input placeholders */
+input::placeholder {
+  color: #999;
+}
+.marker{
+  background-image: url('https://i.imgur.com/oz3r3Wq.png');
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  background-color: blue;
+  border-radius: 11px;
+  border: solid 3px darkslategray;
+}
+
+.marker-delivery {
+  background-image: url('https://i.imgur.com/cIooqnp.png');
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  border-radius: 15px;
+  border: solid darkslategrey 3px;
+}
+
+/* Style the instructions section */
+.instructions {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-height: 300px; /* Set a maximum height for the instructions */
+  overflow-y: auto; /* Add a vertical scroll bar when content exceeds the height */
+}
+
+/* Style the heading */
+.instructions h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style the paragraph */
+.instructions p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  text-align: left;
+}
+
+/* Style the list items */
+.instructions ul {
+  list-style-type: none; /* Remove the default bullet points */
+  padding-left: 0;
+}
+
+/* Style each list item as a card */
+.instructions li {
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-family: 'fitree', sans-serif; 
+}
+
