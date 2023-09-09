@@ -1,4 +1,4 @@
-# Shortest Path Finder using TomTom Maps - README
+# Shortest Path Finder
 
 This repository contains a JavaScript-based web application that allows users to find the shortest path from a source point to multiple destination points using TomTom Maps. The application lets users interactively select destinations on the map and calculates the optimal route in real-time.
 
